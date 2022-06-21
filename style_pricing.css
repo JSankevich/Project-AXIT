@@ -12,10 +12,16 @@
    line-height: 42px;
    font-weight: 400;
    text-align: center;
-   padding: 52px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+   padding-top: 52px;
+}
+
+.pricing__title::after{
+   content: "";
+   display: block;
+   background-color: #EC7979;
+   width: 170px;
+   height: 1px;
+   margin: 52px auto 0;
 }
 
 .pricing__text{
@@ -28,14 +34,6 @@
    font-style: normal;
    margin-bottom: 59px;
    margin-top: 40px;
-}
-
-.pricing__hr{
-   width: 170px;
-   height: 0px;
-   border: 1px solid #EC7979;
-   background-color: #EC7979;
-   margin-left: 668px;
 }
 
 .pricing__container{

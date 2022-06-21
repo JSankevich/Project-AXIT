@@ -1,0 +1,113 @@
+.customers{
+   height: 630px;
+   width: 1171px;
+   margin: 50px auto;
+}
+
+.customers__title{
+   font-family: "Raleway", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 42px;
+   text-align: center;
+   color: #000000;
+   padding-top: 54px;
+   padding-bottom: 0px;
+}
+
+.customers__text{
+   font-family: "Raleway", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   color: #86878B;
+   margin-top: 40px;
+}
+
+.customers__title::after{
+   content: "";
+   display: block;
+   background-color: #EC7979;
+   width: 170px;
+   height: 1px;
+   margin: 54px auto 0;
+}
+
+.customers__container{
+   width: 1171px;
+   height: 336px;
+   margin-top: 83px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.customers__child{
+   width: 370px;
+   height: 336px;
+}
+
+.customers__comment{
+   width: 370px;
+   height: 180px;
+   background: #E2E2E2;
+   border-radius: 10px;
+   font-family: "Raleway", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   color: #86878B;
+   padding-top: 37px;
+}
+
+.customers__triangle{
+   width: 0;
+   height: 0;
+   border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+   border-top: 30px solid #E2E2E2;
+   position: relative;
+   left: 70px;
+}
+
+.customers__images{
+   width: 70px;
+   height: 70px;
+   margin-top: 26px;
+}
+
+.customers__name{
+   font-family: "Open Sans", sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   color: #000000;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.customers__position{
+   font-family: "Raleway", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #000000;
+   margin-top: 15px;
+}
+
+.customers__descripton{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   left: 100px;
+   top: -70px;
+   width: 269px;
+   height: 90px;
+}
