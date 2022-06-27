@@ -6,10 +6,15 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
+   <link rel="stylesheet" href="style_main.css">
+   <link rel="stylesheet" href="style_media.css">
    <link rel="stylesheet" href="style_awesome.css">
    <link rel="stylesheet" href="style_tabs.css">
    <link rel="stylesheet" href="style_pricing.css">
    <link rel="stylesheet" href="style_customers.css">
+   <link rel="stylesheet" href="style_design.css">
+   <link rel="stylesheet" href="style_contact-us.css">
+   <link rel="stylesheet" href="style_footer.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link
@@ -18,40 +23,108 @@
 </head>
 
 <body>
-   <!--секция TABS-->
 
-   <section class="tabs">
-      <div class="tabs__line">
-         <div class="tabs__tab1">TAB 1</div>
-         <div class="tabs__tab2">TAB 2</div>
-         <div class="tabs__tab3">TAB 3</div>
-         <div class="tabs__tab4"></div>
-      </div>
-      <div class="tabs__container">
-         <div class="tabs__child page">
-            <h1 class="tabs__title">Tabs with soft transitioning effect.</h1>
-            <p class="tabs__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br> bibendum
-               laoreet. Proin gravida dolor sit amet lacus accumsan et viverra <br> justo commodo. Proin sodales
-               pulvinar tempor. Cum sociis natoque penatibus et magnis dis
-               parturient montes. <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
-               bibendum laoreet.</p>
-            <button class="tabs__button">Download</button>
+   <main>
+      <!--секция HEADER-->
+      <header class="header__section">
+         <div class="header">
+            <img class="header__logo" src="images/logo.png" alt="logo">
+            <ul class="header__menu">
+               <li><a class="header__menu-tab" href="#tabs__section">Features</a></li>
+               <li><a class="header__menu-tab" href="#awesome">About</a></li>
+               <li><a class="header__menu-tab" href="#pricing__section">Pricing</a></li>
+               <li><a class="header__menu-tab" href="#customers">Reviews</a></li>
+               <li><a class="header__menu-tab" href="#contact-us">Contact</a></li>
+            </ul>
          </div>
-         <img class="tabs__child-image" src="images/statue.png" alt="statue">
+      </header>
+
+      <!--секция BANNER-->
+      <section class="banner__section">
+         <div class="banner">
+            <div class="banner__description">
+               <img class="banner__logo-big" src="images/logo_big.png" alt="logo">
+               <h1 class="banner__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+               <p class="banner__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+               <button class="banner__button">Download</button>
+            </div>
+            <form class="banner__form">
+               <h4 class="banner__form-title">TRY YOUR <span class="banner__free">FREE</span> TRIAL TODAY</h4>
+               <input class="banner__form-input" type="text" placeholder="Name">
+               <input class="banner__form-input" type="email" placeholder="Email">
+               <input class="banner__form-input" type="password" placeholder="Password">
+               <button class="banner__form-button">Get Started</button>
+            </form>
+         </div>
+      </section>
+   </main>
+
+   <!--секция SOCIAL MEDIA-->
+   <section class="media__section">
+      <div class="media">
+         <div class="media__description">
+            <h4 class="media__title">Social Media</h4>
+            <p class="media__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Aenean euismod bibendum laoreet.</p>
+         </div>
+         <div class="media__icons">
+            <a href="#"><img class="media__icon" src="images/Facebook_m.png"></a>
+            <a href="#"><img class="media__icon" src="images/Twitter_m.png"></a>
+            <a href="#"><img class="media__icon" src="images/linkedin_m.png"></a>
+            <a href="#"><img class="media__icon" src="images/pinterest_m.png"></a>
+            <a href="#"><img class="media__icon" src="images/instagram_m.png"></a>
+            <a href="#"><img class="media__icon" src="images/github_m.png"></a>
+            <a href="#"><img class="media__icon" src="images/rss_m.png"></a>
+         </div>
+      </div>
+   </section>
+
+   <!--секция TABS-->
+   <section id="tabs__section">
+      <div class="tabs">
+         <input type="radio" name="tab-btn" id="tabs__btn-1" value="" checked>
+         <label for="tabs__btn-1">TAB 1</label>
+         <input type="radio" name="tab-btn" id="tabs__btn-2" value="">
+         <label for="tabs__btn-2">TAB 2</label>
+         <input type="radio" name="tab-btn" id="tabs__btn-3" value="">
+         <label for="tabs__btn-3">TAB 3</label>
+         <div id="tabs__content-1">
+            <div class="tabs__container-1">
+               <div class="tabs__child page-1">
+                  <h3 class="tabs__title">Tabs with soft transitioning effect.</h3>
+                  <p class="tabs__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
+                     bibendum
+                     laoreet. Proin gravida dolor sit amet lacus accumsan et viverra <br> justo commodo. Proin sodales
+                     pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                     parturient montes. <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                     euismod
+                     <br>
+                     bibendum laoreet.
+                  </p>
+                  <button class="tabs__button">Download</button>
+               </div>
+               <img class="tabs__child-image" src="images/statue.png" alt="statue">
+            </div>
+         </div>
+         <div id="tabs__content-2">
+            Содержимое 2...
+         </div>
+         <div id="tabs__content-3">
+            Содержимое 3...
+         </div>
       </div>
    </section>
 
    <!--секция AWESOME-->
-
-   <section class="awesome">
+   <section id="awesome">
       <div>
-         <h1 class="awesome__title">WHY THIS IS AWESOME</h1>
+         <h2 class="awesome__title">WHY THIS IS AWESOME</h2>
          <p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
       <div class="awesome__container">
          <div class="awesome__child left">
             <img class="awesome__image" src="images/lamp.png" alt="lamp">
-            <h2 class="awesome__child-title">Thoughtful Design</h2>
+            <h4 class="awesome__child-title">Thoughtful Design</h4>
             <p class="awesome__child-text">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Aenean euismod
                bibendum
                laoreet. Proin gravida dolor sit amet lacus <br> accumsan et
@@ -60,7 +133,7 @@
          </div>
          <div class="awesome__child center">
             <img class="awesome__image" src="images/keyboard.png" alt="keyboard">
-            <h2 class="awesome__child-title">Thoughtful Design</h2>
+            <h4 class="awesome__child-title">Thoughtful Design</h4>
             <p class="awesome__child-text">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Aenean euismod
                bibendum
                laoreet. Proin gravida dolor sit amet lacus <br> accumsan et
@@ -69,7 +142,7 @@
          </div>
          <div class="awesome__child right">
             <img class="awesome__image" src="images/flash.png" alt="flash">
-            <h2 class="awesome__child-title">Thoughtful Design</h2>
+            <h4 class="awesome__child-title">Thoughtful Design</h4>
             <p class="awesome__child-text">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Aenean euismod
                bibendum
                laoreet. Proin gravida dolor sit amet lacus <br> accumsan et
@@ -80,54 +153,54 @@
    </section>
 
    <!--секция PRICING-->
-
-   <section class="pricing">
-      <div>
-         <h1 class="pricing__title">PRICING OPTIONS</h1>
-         <p class="pricing__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div class="pricing__container">
-         <div class="pricing__child basic">
-            <p class="pricing__tariff">Basic</p>
-            <p class="pricing__price">$10</p>
-            <p class="pricing__description">Free for life</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-            <p class="pricing__space">1 Gb Of Space</p>
+   <section id="pricing__section">
+      <div class="pricing">
+         <div>
+            <h2 class="pricing__title">PRICING OPTIONS</h2>
+            <p class="pricing__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
          </div>
-         <div class="pricing__child optima">
-            <p class="pricing__tariff">Optima</p>
-            <p class="pricing__price">$20</p>
-            <p class="pricing__description">Free for life</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-         </div>
-         <div class="pricing__child pro">
-            <p class="pricing__tariff">Pro</p>
-            <p class="pricing__price">$30</p>
-            <p class="pricing__description">Free for life</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-            <p class="pricing__space">1 Gb Of Space</p>
-            <p class="pricing__space">1 Gb Of Space</p>
+         <div class="pricing__container">
+            <ul class="pricing__child basic">
+               <li class="pricing__tariff">Basic</li>
+               <li class="pricing__price">$10</li>
+               <li class="pricing__description">Free for life</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+            </ul>
+            <ul class="pricing__child optima">
+               <li class="pricing__tariff">Optima</li>
+               <li class="pricing__price">$20</li>
+               <li class="pricing__description">Free for life</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+            </ul>
+            <ul class="pricing__child pro">
+               <li class="pricing__tariff">Pro</li>
+               <li class="pricing__price">$30</li>
+               <li class="pricing__description">Free for life</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+               <li class="pricing__space">1 Gb Of Space</li>
+            </ul>
          </div>
       </div>
    </section>
 
    <!--секция CUSTOMERS-->
-
-   <section class="customers">
+   <section id="customers">
       <div>
-         <h1 class="customers__title">WHAT OUR CUSTOMERS ARE SAYING</h1>
+         <h2 class="customers__title">WHAT OUR CUSTOMERS ARE SAYING</h2>
          <p class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
       <div class="customers__container">
@@ -169,6 +242,53 @@
          </div>
       </div>
    </section>
+
+   <!--секция DESIGN-->
+   <section class="design__section">
+      <div class="design">
+         <div>
+            <h1 class="design__title">STYLISH AXURE DESIGN</h1>
+            <p class="design__text">Use the sections you need, remove the ones you don't. Create gorgeous prototypes
+               faster
+               than ever!</p>
+            <button class="design__button">Download</button>
+         </div>
+      </div>
+   </section>
+
+   <!-- секция CONTACT US-->
+   <section id="contact-us">
+      <h2 class="contact-us__title">CONTACT US</h2>
+      <p class="contact-us__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <form class="contact-us__form">
+         <div class="contact-us__form-autorise">
+            <div class="contact-us__form-info">
+               <input class="contact-us__input name" type="text" placeholder="Name">
+               <input class="contact-us__input email" type="email" placeholder="Email">
+               <input class="contact-us__input password" type="password" placeholder="Password">
+            </div>
+            <textarea class="contact-us__input message" placeholder="Message"></textarea>
+         </div>
+         <button class="contact-us__button">Send Message</button>
+      </form>
+   </section>
+
+   <!--секция FOOTER-->
+   <footer class="footer__section">
+      <div class="footer">
+         <div class="footer__icons">
+            <a href="#"><img class="footer__icon" src="images/Facebook.png"></a>
+            <a href="#"><img class="footer__icon" src="images/Twitter.png"></a>
+            <a href="#"><img class="footer__icon" src="images/linkedin.png"></a>
+            <a href="#"><img class="footer__icon" src="images/pinterest.png"></a>
+            <a href="#"><img class="footer__icon" src="images/instagram.png"></a>
+            <a href="#"><img class="footer__icon" src="images/github.png"></a>
+            <a href="#"><img class="footer__icon" src="images/rss.png"></a>
+         </div>
+         <p class="footer__name">© 2015 Axure Themes</p>
+      </div>
+   </footer>
+
 </body>
 
 </html>

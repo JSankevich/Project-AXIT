@@ -1,0 +1,37 @@
+.footer__section{
+   background-color: #000000;
+}
+
+.footer{
+   width: 1510px;
+   height: 164px;
+   margin: 0 auto;
+}
+
+.footer__icons{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.footer__icon{
+   width: 53.2px;
+   height: 53.2px;
+   margin-top: 35px;
+   margin-left: 35px;
+}
+
+.footer__icon:hover{
+   border-bottom: 10px solid black;
+}
+
+.footer__name{
+   font-family: "Raleway", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   color: #FFFFFF;
+   margin-top: 27.8px;
+}

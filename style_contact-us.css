@@ -1,0 +1,105 @@
+#contact-us{
+   width: 1170px;
+   height: 622px;
+   margin: 50px auto;
+}
+
+.contact-us__title{
+   font-family: "Raleway", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 42px;
+   text-align: center;
+   color: #000000;
+   padding-top: 54px;
+}
+
+.contact-us__title::after{
+   content: "";
+   width: 170px;
+   height: 1px;
+   background-color: #EC7979;
+   display: block;
+   margin: 54px auto 0;
+}
+
+.contact-us__text{
+   font-family: "Raleway", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   color: #86878B;
+   margin-top: 40px;
+}
+
+.contact-us__form{
+   margin-top: 89px;
+   display: block;
+   text-align: center;
+}
+
+.contact-us__form-info{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.contact-us__form-autorise{
+   display: flex;
+   flex-direction: row;
+}
+
+.contact-us__button{
+   width: 370px;
+   height: 58px;
+   background-color: #EC7979;
+   font-family: "Open Sans", sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 25px;
+   text-align: center;
+   color: #FFFFFF;
+   border: none;
+   margin-top: 50px;
+}
+
+.contact-us__button:hover {
+   color: #efaaaa;
+   background: #333;
+   transition: all .3s linear;
+}
+
+.contact-us__input{
+   width: 571px;
+   height: 38px;
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   color: #BDBDBD;
+   border-bottom: 1px solid #BDBDBD;
+   text-align: left;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+}
+
+.message{
+   width: 569px;
+   height: 214px;
+   margin-left: 30px;
+   resize: none;
+}
+
+.email{
+   margin-top: 50px;
+}
+
+.password{
+   margin-top: 50px;
+}

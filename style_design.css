@@ -1,0 +1,67 @@
+.design__section{
+   background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/design.png);
+}
+
+.design{
+   width: 1510px;
+   height: 442px;
+   margin: 0 auto;
+}
+
+.design__title{
+   font-family: "Raleway", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 42px;
+   text-align: center;
+   color: #FFFFFF;
+   border: 1px sold white;
+   padding-top: 104px;
+}
+
+.design__title::after{
+   content: "";
+   display: block;
+   background-color: #FFFFFF;
+   width: 170px;
+   height: 1px;
+   margin: 54px auto 0;
+}
+
+.design__text{
+   font-family: "Raleway", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   color: #FFFFFF;
+   margin-top: 40px;
+}
+
+.design__button{
+   font-family: "Open Sans", sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 25px;
+   text-align: center;
+   color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   margin-top: 73px;
+   background-color: rgba(0,0,0,0);
+   width: 370px;
+   height: 58px;
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.design__button:hover {
+   color: #efaaaa;
+   background: rgba(237, 170, 210, 0.159);
+   transition: all .3s linear;
+}

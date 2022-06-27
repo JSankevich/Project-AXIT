@@ -1,0 +1,51 @@
+.media__section{
+   background-color: #F8EFEF;
+}
+
+.media{
+   width: 1510px;
+   height: 140px;
+   display: flex;
+   flex-direction: row;
+   margin: 0 auto;
+}
+
+.media__description{
+   margin-left: 170px;
+}
+
+.media__title{
+   font-family: "Open Sans", sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   color: #333333;
+   padding: 13.5px 0 13.5px 0;
+   margin-bottom: 18px;
+}
+
+.media__text{
+   font-family: "Raleway", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #86878B;
+   width: 470px;
+   height: 42px;
+}
+
+.media__icons{
+   align-self: center;
+}
+
+.media__icon{
+   width: 70px;
+   height: 70px;
+   margin-left: 30px;
+}
+
+.media__icon:hover{
+   border-bottom: 10px solid  #F8EFEF;
+}
