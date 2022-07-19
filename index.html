@@ -36,6 +36,20 @@
                <li><a class="header__menu-tab" href="#customers">Reviews</a></li>
                <li><a class="header__menu-tab" href="#contact-us">Contact</a></li>
             </ul>
+            <div class="header__burger-menu">
+               <input id="burger-menu" type="checkbox" />
+               <label class="burger-menu__btn" for="burger-menu">
+                  <span></span>
+               </label>
+               <ul class="burger-menu__box">
+                  <img class="burger-logo" src="./images/logo.png" alt="logo">
+                  <li><a class="burger-menu__item" href="#features">Features</a></li>
+                  <li><a class="burger-menu__item" href="#works">About</a></li>
+                  <li><a class="burger-menu__item" href="#team">Pricing</a></li>
+                  <li><a class="burger-menu__item" href="#testimonials">Reviews</a></li>
+                  <li><a class="burger-menu__item" href="#download">Contact</a></li>
+               </ul>
+            </div>
          </div>
       </header>
 
@@ -203,41 +217,91 @@
          <h2 class="customers__title">WHAT OUR CUSTOMERS ARE SAYING</h2>
          <p class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-      <div class="customers__container">
-         <div class="customers__child Davis">
-            <p class="customers__comment">Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Doloribus
-               accusamus expedita repellat similique<br>
-               odio aspernatur ex, architecto eaque<br>
-               quo suscipit.</p>
-            <div class="customers__triangle"></div>
-            <img class="customers__images" src="images/Davis.png" alt="Comment Davis">
-            <div class="customers__descripton">
-               <p class="customers__name">Davis Rhiel Madsen</p>
-               <p class="customers__position">Manager</p>
+      <div class="slider">
+         <input type="radio" name="slide-btn" id="slide__btn-1" value="" checked>
+         <label class="btn1" for="slide__btn-1"></label>
+         <input type="radio" name="slide-btn" id="slide__btn-2" value="">
+         <label class="btn2" for="slide__btn-2"></label>
+         <input type="radio" name="slide-btn" id="slide__btn-3" value="">
+         <label class="btn3" for="slide__btn-3"></label>
+         <div class="customers__container">
+            <div class="customers__child Davis">
+               <p class="customers__comment">Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Doloribus
+                  accusamus expedita repellat similique<br>
+                  odio aspernatur ex, architecto eaque<br>
+                  quo suscipit.</p>
+               <div class="customers__triangle"></div>
+               <img class="customers__images" src="images/Davis.png" alt="Comment Davis">
+               <div class="customers__descripton">
+                  <p class="customers__name">Davis Rhiel Madsen</p>
+                  <p class="customers__position">Manager</p>
+               </div>
+            </div>
+            <div class="customers__child Jaydon">
+               <p class="customers__comment">Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Doloribus
+                  accusamus expedita repellat similique<br>
+                  odio aspernatur ex, architecto eaque<br>
+                  quo suscipit.</p>
+               <div class="customers__triangle"></div>
+               <img class="customers__images" src="images/Jaydon.png" alt="Comment Jaydon">
+               <div class="customers__descripton">
+                  <p class="customers__name">Jaydon Rosser</p>
+                  <p class="customers__position">Manager</p>
+               </div>
+            </div>
+            <div class="customers__child Cooper">
+               <p class="customers__comment">Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Doloribus
+                  accusamus expedita repellat similique<br>
+                  odio aspernatur ex, architecto eaque<br>
+                  quo suscipit.</p>
+               <div class="customers__triangle"></div>
+               <img class="customers__images" src="images/Cooper.png" alt="Comment Cooper">
+               <div class="customers__descripton">
+                  <p class="customers__name">Cooper Dorwart</p>
+                  <p class="customers__position">Manager</p>
+               </div>
             </div>
          </div>
-         <div class="customers__child Jaydon">
-            <p class="customers__comment">Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Doloribus
-               accusamus expedita repellat similique<br>
-               odio aspernatur ex, architecto eaque<br>
-               quo suscipit.</p>
-            <div class="customers__triangle"></div>
-            <img class="customers__images" src="images/Jaydon.png" alt="Comment Jaydon">
-            <div class="customers__descripton">
-               <p class="customers__name">Jaydon Rosser</p>
-               <p class="customers__position">Manager</p>
+         <div id="slide__content-1">
+            <div class="customers__child Davis">
+               <p class="customers__comment">Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Doloribus
+                  accusamus expedita repellat similique<br>
+                  odio aspernatur ex, architecto eaque<br>
+                  quo suscipit.</p>
+               <div class="customers__triangle"></div>
+               <img class="customers__images" src="images/Davis.png" alt="Comment Davis">
+               <div class="customers__descripton">
+                  <p class="customers__name">Davis Rhiel Madsen</p>
+                  <p class="customers__position">Manager</p>
+               </div>
             </div>
          </div>
-         <div class="customers__child Cooper">
-            <p class="customers__comment">Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Doloribus
-               accusamus expedita repellat similique<br>
-               odio aspernatur ex, architecto eaque<br>
-               quo suscipit.</p>
-            <div class="customers__triangle"></div>
-            <img class="customers__images" src="images/Cooper.png" alt="Comment Cooper">
-            <div class="customers__descripton">
-               <p class="customers__name">Cooper Dorwart</p>
-               <p class="customers__position">Manager</p>
+         <div id="slide__content-2">
+            <div class="customers__child Jaydon">
+               <p class="customers__comment">Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Doloribus
+                  accusamus expedita repellat similique<br>
+                  odio aspernatur ex, architecto eaque<br>
+                  quo suscipit.</p>
+               <div class="customers__triangle"></div>
+               <img class="customers__images" src="images/Jaydon.png" alt="Comment Jaydon">
+               <div class="customers__descripton">
+                  <p class="customers__name">Jaydon Rosser</p>
+                  <p class="customers__position">Manager</p>
+               </div>
+            </div>
+         </div>
+         <div id="slide__content-3">
+            <div class="customers__child Cooper">
+               <p class="customers__comment">Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Doloribus
+                  accusamus expedita repellat similique<br>
+                  odio aspernatur ex, architecto eaque<br>
+                  quo suscipit.</p>
+               <div class="customers__triangle"></div>
+               <img class="customers__images" src="images/Cooper.png" alt="Comment Cooper">
+               <div class="customers__descripton">
+                  <p class="customers__name">Cooper Dorwart</p>
+                  <p class="customers__position">Manager</p>
+               </div>
             </div>
          </div>
       </div>

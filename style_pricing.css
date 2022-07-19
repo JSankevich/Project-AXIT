@@ -111,3 +111,120 @@
    border: 2px solid #F5F5F5;
    padding: 14px;
 }
+
+@media (max-width:1500px){
+   .pricing{
+      width: 1024px;
+      height: 770px;
+   }
+   
+   .pricing__title{
+      font-size: 24px;
+      line-height: 28px;
+      padding-top: 36px;
+   }
+   
+   .pricing__title::after{
+      width: 143px;
+      margin: 36px auto 0;
+   }
+   
+   .pricing__text{
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 49.74px;
+      margin-top: 35px;
+   }
+   
+   .pricing__container{
+      width: 991px;
+      height: 470px;
+      margin-top: 49.74px;
+      margin-left: 14px;
+   }
+   
+   .pricing__child{
+      width: 317px;
+      height: 452.26px;
+      margin-top: 17.74px;
+   }
+
+   .pricing__tariff{
+      padding: 10.1px;
+   }
+   
+   .pricing__price{
+      padding: 11.67px;
+   }
+
+   .pricing__space{
+      padding: 11.67px;
+   }
+}
+
+@media (max-width:1072px){
+   .pricing{
+      width: 320px;
+      height: 1480px;
+   }
+   
+   .pricing__title{
+      padding-top: 46px;
+   }
+   
+   .pricing__title::after{
+      width: 134px;
+      margin: 46px auto 0;
+   }
+   
+   .pricing__text{
+      margin-bottom: 24px;
+      margin-top: 24px;
+   }
+   
+   .pricing__container{
+      width: 288px;
+      height: 1254px;
+      margin-top: 0px;
+      margin-left: 16px;
+      flex-direction: column;
+   }
+   
+   .pricing__child{
+      width: 288px;
+      height: 400px;
+      margin-top: 0;
+   }
+
+   .no-touch .pricing__child:hover{
+      margin-top: none;
+      filter: none;
+      transition: none;
+   }
+
+   .pricing__tariff{
+      padding: 11px;
+      font-size: 18px;
+      line-height: 25px;
+   }
+   
+   .pricing__price{
+      padding: 25.2px;
+      font-size: 24px;
+      line-height: 28px;
+   }
+
+   .pricing__space{
+      font-size: 14px;
+      line-height: 16px;
+   }
+
+   .pricing__description{
+      font-size: 14px;
+      line-height: 16px;
+   }
+}
+
+
+
+

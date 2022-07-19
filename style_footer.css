@@ -35,3 +35,45 @@
    color: #FFFFFF;
    margin-top: 27.8px;
 }
+
+@media (max-width:1500px){
+   .footer{
+      width: 1024px;
+   }
+   
+   .footer__icon{
+      width: 45px;
+      height: 45px;
+      margin-left: 27px;
+   }
+
+   .footer__name{
+      font-size: 14px;
+      line-height: 16px;
+      margin-top: 38px;
+   }
+   }
+
+@media (max-width:1072px){
+   .footer{
+      width: 320px;
+      margin-top: 40px;
+   }
+   
+   .footer__icon{
+      width: 26px;
+      height: 26px;
+      margin-left: 17px;
+   }
+
+   .footer__name{
+      font-size: 14px;
+      line-height: 16px;
+      margin-top: 42px;
+   }
+
+   .footer__icons{
+      margin-left: -17px;
+   }
+
+}

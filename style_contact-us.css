@@ -103,3 +103,86 @@
 .password{
    margin-top: 50px;
 }
+
+@media (max-width:1500px){
+   #contact-us{
+      width: 992px;
+      height: 562px;
+   }
+   
+   .contact-us__title{
+      font-size: 24px;
+      line-height: 28px;
+      padding-top: 46px;
+   }
+   
+   .contact-us__title::after{
+      width: 144px;
+      margin: 46px auto 0;
+   }
+   
+   .contact-us__text{
+      font-size: 14px;
+      line-height: 16px;
+      margin-top: 32px;
+   }
+   
+   .contact-us__form{
+      margin-top: 72px;
+   }
+   
+   .contact-us__button{
+      width: 318px;
+   }
+   
+   .contact-us__input{
+      width: 486px;
+   }
+   
+   .message{
+      width: 486px;
+      margin-left: 20px;
+   }
+}
+
+@media (max-width:1072px){
+   #contact-us{
+      width: 288px;
+      height: 807px;
+      margin: 0px auto;
+   }
+   
+   .contact-us__title::after{
+      width: 134px;
+   }
+   
+   .contact-us__text{
+      margin-top: 24px;
+      width: 288px;
+      height: 32px;
+   }
+   
+   .contact-us__form{
+      margin-top: 64px;
+   }
+   
+   .contact-us__button{
+      width: 288px;
+      height: 50px;
+   }
+
+   .contact-us__input{
+      width: 288px;
+   }
+   
+   .message{
+      width: 288px;
+      margin-left: 0px;
+      height: 200px;
+      margin-top: 50px;
+   }
+   
+   .contact-us__form-autorise{
+      flex-direction: column;
+   }
+}
